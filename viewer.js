@@ -4369,7 +4369,7 @@ var defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/build/pdf.worker.min.js',
+    value: 'https://cdn.staticfile.org/pdf.js/2.2.228/pdf.worker.min.js',
     kind: OptionKind.WORKER
   }
 };
@@ -4477,7 +4477,7 @@ var pdfjsLib;
 if (typeof window !== 'undefined' && window['pdfjs-dist/build/pdf']) {
   pdfjsLib = window['pdfjs-dist/build/pdf'];
 } else {
-  pdfjsLib = require('https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/build/pdf.min.js');
+  pdfjsLib = require('https://cdn.staticfile.org/pdf.js/2.2.228/pdf.min.js');
 }
 
 module.exports = pdfjsLib;
