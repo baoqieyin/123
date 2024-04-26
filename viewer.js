@@ -4231,7 +4231,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: 'http://cloud.baoqieyin.com/lengyan.pdf',
+    value: 'https://testingcf.jsdelivr.net/gh/baoqieyin/docs/lengyan.pdf',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
